@@ -1,0 +1,182 @@
+.block_info{
+	background-image: url(../img/back2.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.conteiner_inf1{
+	width: 100%;
+	max-width: 1172px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding-top: 70px;
+	text-align: center;
+	
+}
+
+.conteiner_inf1 h2{
+	/* Style for "C# DEVELOP" */
+	width: 100%;
+	max-width: 521px;
+	height: 63px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	/* Text style for "C, # , DEV" */
+	letter-spacing: 0.38px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 30px;
+}
+.conteiner_inf1 p{
+	width: 100%;
+	max-width: 529px;
+	text-decoration: none;
+	height: 96px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 25px;
+	/* Text style for "C-develope" */
+	letter-spacing: 0.22px;
+	padding-bottom: 52px;
+	padding-top: 34px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.conteiner_inf2{
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1172px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding-top: 70px;
+	text-align: center;
+	
+
+}
+
+.conteiner_inf2 h2{
+	/* Style for "C# DEVELOP" */
+	width: 100%;
+	max-width: 529px;
+	height: 63px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	/* Text style for "C, # , DEV" */
+	letter-spacing: 0.38px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 30px;
+}
+.conteiner_inf2 p{
+	width: 100%;
+	max-width: 529px;
+	text-decoration: none;
+	height: 96px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 25px;
+	/* Text style for "C-develope" */
+	letter-spacing: 0.22px;
+	padding-bottom: 52px;
+	padding-top: 34px;
+	display: flex;
+	align-items: flex-start;
+	
+}
+
+.conteiner_inf2 a{
+	text-decoration: none;
+}
+
+.conteiner_info{
+	margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+	.conteiner_info{
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+		.conteiner_inf1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 ;
+	padding-top: 77px;
+	padding-right: 15px;
+	padding-left: 15px;
+	}
+
+		.conteiner_inf2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	}
+
+	.box1 h2{
+		height: 80px;
+	}
+
+	.box1 p{
+		height: 228px;
+	}
+	.box1 h2{
+		height: 80px;
+	}
+
+	.box2 p{
+		height: 228px;
+	}
+	.box2 h2{
+		height: 88px;
+	}
+
+	.box3 p{
+		height: 228px;
+	}
+	.box3 h2{
+		height: 80px;
+	}
+
+	.box4 p{
+		height: 228px;
+	}
+	.box4 h2{
+		height: 80px;
+	}
+
+	.box4 p{
+		height: 228px;
+	}
+	.conteiner_inf2 p{
+		font-size: 19px;
+	}
+}

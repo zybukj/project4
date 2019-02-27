@@ -1,0 +1,158 @@
+
+.footer1{
+	background-color: #18284b;
+	max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.conteiner_nav1{
+	display: flex;
+	justify-content: space-between;
+	max-width: 277px;
+	width: 100%;
+	padding-top: 42px;
+}
+
+
+.conteiner_nav1 span{
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 34px;
+	/* Text style for "About Us" */
+	letter-spacing: 0.18px;
+}
+
+.conteiner_nav1 a{
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+
+.conteiner_nav1 a:hover{
+	
+	border-bottom: 2px solid #fab917;
+}
+
+.conteiner_nav2{
+		display: flex;
+		align-items: flex-start;
+		
+		max-width: 412px;
+		width: 100%;
+}
+
+.conteiner_nav2 p{
+	/* Style for "Copyright" */
+	max-width: 470px;
+	width: 100%;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 34px;
+	/* Text style for "Copyright" */
+	letter-spacing: 0.18px;
+	padding-bottom: 32px;
+	
+}
+
+
+.conteiner_techno p{
+	/* Style for "Copyright" */
+	max-width: 470px;
+	width: 100%;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 34px;
+	/* Text style for "Copyright" */
+	letter-spacing: 0.18px;
+	
+}
+
+.conteiner_navigation{
+	max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+	display: block;
+
+}
+
+.conteiner_footer{
+	max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.conteiner_techno{
+	width: 100%;
+	max-width: 470px;
+	height: 17px;
+}
+
+@media screen and (max-width: 768px) {
+	.conteiner_footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+		max-height: 183px;
+		max-width: 412px;
+		width: 100%;
+	}
+			.conteiner_nav1{
+		padding-top: 28px;
+		margin: 0 auto;
+		max-width: 200px;
+		width: 100%;
+		padding-right: 15px;
+		
+	}
+			.conteiner_nav2{
+		margin: 0 auto;
+		justify-content: center;
+		max-width: 412px;
+		width: 100%;
+	}
+			.conteiner_nav2{
+		text-align: center;
+	}
+
+			.conteiner_techno{
+		margin: 0 auto;
+		justify-content: center;
+		max-width: 515px;
+		width: 100%;
+		max-height: 17px;
+		padding: 0;
+		padding-bottom: 34px;
+	}
+			.conteiner_techno p{
+		display: flex;
+		justify-content: center;
+		line-height: 0px;
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.conteiner_nav1 span{
+		font-size: 14px;
+	}
+
+	.conteiner_nav2 p{
+		font-size: 13px;
+	}
+	.conteiner_techno p{
+		font-size: 10px;
+	}
+}

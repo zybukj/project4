@@ -1,0 +1,67 @@
+
+.topfooter{
+	background-color: #fab917;
+	max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.conteiner_topfooter {
+	margin: 0 auto; 
+    max-width: 1172px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+	text-align: center;
+	justify-content: center;
+   
+}
+
+.conteiner_text{
+	display: flex;
+	justify-content: center;
+	padding-top: 37px;
+	padding-bottom: 33px;
+}
+
+.conteiner_topfooter h2{
+	/* Style for "WE WILL BE" */
+	width: 100%;
+	max-width: 962px;
+	height: 59px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	/* Text style for "W, E WILL" */
+	letter-spacing: 0.32px;
+	
+}
+
+.menu_list a{
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+
+.menu_list a:hover{
+	
+	border-bottom: 2px solid #fab917;
+}
+
+@media screen and (max-width: 768px) {
+	.conteiner_topfooter{
+		display: flex;
+	}
+	.conteiner_topfooter h2 {
+    width: 100%;
+    max-width: 966px;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 320px){
+	.conteiner_topfooter h2 {
+    font-size: 9px;
+}

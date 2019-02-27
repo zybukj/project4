@@ -1,0 +1,131 @@
+* {
+margin: 0;
+padding:0
+}
+
+.zagol h2{
+		/* Style for "C# Develop" */
+	width: 100%;
+	max-width: 359px;
+	height: 29px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	/* Text style for "C, # Devel" */
+	letter-spacing: 0.38px;
+	padding-top: 57px;
+
+}
+
+.abzts p{
+	/* Style for "C-develope" */
+	width: 100%;
+	max-width: 600px;
+	height: 97px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 25px;
+	/* Text style for "C-develope" */
+	letter-spacing: 0.22px;
+	margin-top: 118px;
+	
+}
+
+.c_development{
+	background-image: url(../img/back1.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.conteiner_dev{
+	max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.button1 {
+    padding-top: 110px;
+    padding-bottom: 194px;
+}
+
+.button1 button{
+	border-radius: 3px;
+	background-color: #fab917;
+	max-width: 180px;
+	width: 100%;
+	height: 45px;
+	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+	border: 1px solid #fb9600;
+	transition: 0.7s;
+	cursor: pointer;
+	
+}
+.button1 p{
+	height: 47px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 43.19px;
+	text-transform: uppercase;
+	/* Text style for "Request fr" */
+	letter-spacing: 0.21px;
+}
+
+ .button1 button:hover {
+	background: white; /* Цвет фона под ссылкой */ 
+	
+    
+}
+
+.button1 p:hover{
+	color: #fab917;
+	
+}
+
+@media screen and (max-width: 768px) {
+    .conteiner_dev{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+	.abzts{
+		padding: 0;
+		max-width: 415px;
+		width: 100%;
+		padding-left: 15px;
+		
+}
+	.abzts p{
+		padding: 0;
+		color: #ffffff;
+		font-family: "Helvetica Neue Cyr";
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 25px;
+		max-width: 277px;
+		width: 100%;
+		height: 200px;
+
+	}
+	.button1 {
+		padding:0;
+		padding-left: 15px;
+	}
+	.zagol h2{
+		padding-left: 15px;
+		padding-top: 55px;
+	}
+}

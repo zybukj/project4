@@ -1,0 +1,115 @@
+
+.conteiner_who_we_are h2{
+	width: 100%;
+	max-width: 277px;
+	height: 29px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+
+}
+
+.conteiner_who_we_are{
+	padding-top: 87px;
+}
+
+.wwa{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	background-image: url(../img/back6.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.conteiner_wwa{
+	max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.button1 {
+	margin-top: 110px;
+	padding-bottom: 194px;
+
+}
+
+.button1 button{
+	border-radius: 3px;
+	background-color: #fab917;
+	width: 180px;
+	height: 45px;
+	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+	border: 1px solid #fb9600;
+	transition: 0.7s;
+	
+}
+
+
+
+.conteiner_li li{
+	width: 100%;
+	max-width: 589px;
+	padding-top: 10px;
+	color: #ffffff;
+	font-family: "Helvetica Neue Cyr";
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.conteiner_li{
+	padding-top: 65px;
+}
+
+.conteiner_btn1 {
+    display: flex;
+    margin-top: 34px;
+}
+
+.conteiner_btn1 input{
+    border-radius: 3px;
+    background-color: #fab917;
+    width: 180px;
+    height: 45px;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #fb9600;
+    transition: 0.7s;
+    
+}
+
+.conteiner_bt1 input[value]{
+    height: 47px;
+    color: #ffffff;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 43.19px;
+    text-transform: uppercase;
+    /* Text style for "Request fr" */
+    letter-spacing: 0.21px;
+}
+
+ .conteiner_btn1 input:hover {
+    background: white; /* Цвет фона под ссылкой */ 
+    
+    
+}
+
+.conteiner_btn1 input[value]:hover{
+    color: #fab917;
+    
+}
+
+@media screen and (max-width: 768px) {
+	.conteiner_wwa{
+		display: flex;
+		flex-direction: column;
+		padding-left: 17px;
+	}
+}
